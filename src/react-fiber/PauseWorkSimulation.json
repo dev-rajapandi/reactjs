@@ -1,0 +1,551 @@
+{
+    "version": 5,
+    "dataForRoots": [
+        {
+            "commitData": [
+                {
+                    "changeDescriptions": [
+                        [
+                            4,
+                            {
+                                "context": false,
+                                "didHooksChange": false,
+                                "isFirstMount": false,
+                                "props": [],
+                                "state": null,
+                                "hooks": null
+                            }
+                        ],
+                        [
+                            3,
+                            {
+                                "context": false,
+                                "didHooksChange": true,
+                                "isFirstMount": false,
+                                "props": [],
+                                "state": null,
+                                "hooks": [
+                                    0
+                                ]
+                            }
+                        ]
+                    ],
+                    "duration": 2014.2,
+                    "effectDuration": null,
+                    "fiberActualDurations": [
+                        [
+                            4,
+                            2012.5
+                        ],
+                        [
+                            3,
+                            2014.2
+                        ]
+                    ],
+                    "fiberSelfDurations": [
+                        [
+                            4,
+                            2012.5
+                        ],
+                        [
+                            3,
+                            1.2
+                        ]
+                    ],
+                    "passiveEffectDuration": null,
+                    "priorityLevel": "Normal",
+                    "timestamp": 3776.2000000001863,
+                    "updaters": [
+                        {
+                            "displayName": "PauseWorkSimulation",
+                            "id": 3,
+                            "key": null,
+                            "type": 5,
+                            "hocDisplayNames": null,
+                            "compiledWithForget": false
+                        }
+                    ]
+                }
+            ],
+            "displayName": "App",
+            "initialTreeBaseDurations": [
+                [
+                    1,
+                    2075.2999999998137
+                ],
+                [
+                    2,
+                    2073.5
+                ],
+                [
+                    3,
+                    2071.7999999998137
+                ],
+                [
+                    4,
+                    2070.9000000003725
+                ]
+            ],
+            "operations": [
+                [
+                    1,
+                    1,
+                    0,
+                    4,
+                    4,
+                    2012500,
+                    4,
+                    3,
+                    2014199,
+                    4,
+                    2,
+                    2015899,
+                    4,
+                    1,
+                    2017699
+                ]
+            ],
+            "rootID": 1,
+            "snapshots": [
+                [
+                    1,
+                    {
+                        "id": 1,
+                        "children": [
+                            2
+                        ],
+                        "displayName": null,
+                        "hocDisplayNames": null,
+                        "key": null,
+                        "type": 11,
+                        "compiledWithForget": false
+                    }
+                ],
+                [
+                    2,
+                    {
+                        "id": 2,
+                        "children": [
+                            3
+                        ],
+                        "displayName": "App",
+                        "hocDisplayNames": null,
+                        "key": null,
+                        "type": 5,
+                        "compiledWithForget": false
+                    }
+                ],
+                [
+                    3,
+                    {
+                        "id": 3,
+                        "children": [
+                            4
+                        ],
+                        "displayName": "PauseWorkSimulation",
+                        "hocDisplayNames": null,
+                        "key": null,
+                        "type": 5,
+                        "compiledWithForget": false
+                    }
+                ],
+                [
+                    4,
+                    {
+                        "id": 4,
+                        "children": [],
+                        "displayName": "ExpensiveComponent",
+                        "hocDisplayNames": null,
+                        "key": null,
+                        "type": 5,
+                        "compiledWithForget": false
+                    }
+                ]
+            ]
+        }
+    ],
+    "timelineData": [
+        {
+            "batchUIDToMeasuresKeyValueArray": [
+                [
+                    1,
+                    [
+                        {
+                            "type": "render-idle",
+                            "batchUID": 1,
+                            "depth": 0,
+                            "lanes": [
+                                2
+                            ],
+                            "timestamp": 10.400000000372529,
+                            "duration": 2016.7000000001863
+                        },
+                        {
+                            "type": "render",
+                            "batchUID": 1,
+                            "depth": 0,
+                            "lanes": [
+                                2
+                            ],
+                            "timestamp": 10.400000000372529,
+                            "duration": 2015.0999999996275
+                        },
+                        {
+                            "type": "commit",
+                            "batchUID": 1,
+                            "depth": 0,
+                            "lanes": [
+                                2
+                            ],
+                            "timestamp": 2025.5,
+                            "duration": 1.6000000005587935
+                        },
+                        {
+                            "type": "layout-effects",
+                            "batchUID": 1,
+                            "depth": 1,
+                            "lanes": [
+                                2
+                            ],
+                            "timestamp": 2026.2000000001863,
+                            "duration": 0
+                        }
+                    ]
+                ]
+            ],
+            "componentMeasures": [
+                {
+                    "componentName": "PauseWorkSimulation",
+                    "duration": 0.900000000372529,
+                    "timestamp": 11.400000000372529,
+                    "type": "render",
+                    "warning": null
+                },
+                {
+                    "componentName": "ExpensiveComponent",
+                    "duration": 2012.5,
+                    "timestamp": 13,
+                    "type": "render",
+                    "warning": null
+                }
+            ],
+            "duration": 2037.1000000005588,
+            "flamechart": [],
+            "internalModuleSourceToRanges": [],
+            "laneToLabelKeyValueArray": [
+                [
+                    1,
+                    "SyncHydrationLane"
+                ],
+                [
+                    2,
+                    "Sync"
+                ],
+                [
+                    4,
+                    "InputContinuousHydration"
+                ],
+                [
+                    8,
+                    "InputContinuous"
+                ],
+                [
+                    16,
+                    "DefaultHydration"
+                ],
+                [
+                    32,
+                    "Default"
+                ],
+                [
+                    64,
+                    "TransitionHydration"
+                ],
+                [
+                    128,
+                    "Transition"
+                ],
+                [
+                    256,
+                    "Transition"
+                ],
+                [
+                    512,
+                    "Transition"
+                ],
+                [
+                    1024,
+                    "Transition"
+                ],
+                [
+                    2048,
+                    "Transition"
+                ],
+                [
+                    4096,
+                    "Transition"
+                ],
+                [
+                    8192,
+                    "Transition"
+                ],
+                [
+                    16384,
+                    "Transition"
+                ],
+                [
+                    32768,
+                    "Transition"
+                ],
+                [
+                    65536,
+                    "Transition"
+                ],
+                [
+                    131072,
+                    "Transition"
+                ],
+                [
+                    262144,
+                    "Transition"
+                ],
+                [
+                    524288,
+                    "Transition"
+                ],
+                [
+                    1048576,
+                    "Transition"
+                ],
+                [
+                    2097152,
+                    "Transition"
+                ],
+                [
+                    4194304,
+                    "Retry"
+                ],
+                [
+                    8388608,
+                    "Retry"
+                ],
+                [
+                    16777216,
+                    "Retry"
+                ],
+                [
+                    33554432,
+                    "Retry"
+                ],
+                [
+                    67108864,
+                    "SelectiveHydration"
+                ],
+                [
+                    134217728,
+                    "IdleHydration"
+                ],
+                [
+                    268435456,
+                    "Idle"
+                ],
+                [
+                    536870912,
+                    "Offscreen"
+                ],
+                [
+                    1073741824,
+                    "Deferred"
+                ]
+            ],
+            "laneToReactMeasureKeyValueArray": [
+                [
+                    1,
+                    []
+                ],
+                [
+                    2,
+                    [
+                        {
+                            "type": "render-idle",
+                            "batchUID": 1,
+                            "depth": 0,
+                            "lanes": [
+                                2
+                            ],
+                            "timestamp": 10.400000000372529,
+                            "duration": 2016.7000000001863
+                        },
+                        {
+                            "type": "render",
+                            "batchUID": 1,
+                            "depth": 0,
+                            "lanes": [
+                                2
+                            ],
+                            "timestamp": 10.400000000372529,
+                            "duration": 2015.0999999996275
+                        },
+                        {
+                            "type": "commit",
+                            "batchUID": 1,
+                            "depth": 0,
+                            "lanes": [
+                                2
+                            ],
+                            "timestamp": 2025.5,
+                            "duration": 1.6000000005587935
+                        },
+                        {
+                            "type": "layout-effects",
+                            "batchUID": 1,
+                            "depth": 1,
+                            "lanes": [
+                                2
+                            ],
+                            "timestamp": 2026.2000000001863,
+                            "duration": 0
+                        }
+                    ]
+                ],
+                [
+                    4,
+                    []
+                ],
+                [
+                    8,
+                    []
+                ],
+                [
+                    16,
+                    []
+                ],
+                [
+                    32,
+                    []
+                ],
+                [
+                    64,
+                    []
+                ],
+                [
+                    128,
+                    []
+                ],
+                [
+                    256,
+                    []
+                ],
+                [
+                    512,
+                    []
+                ],
+                [
+                    1024,
+                    []
+                ],
+                [
+                    2048,
+                    []
+                ],
+                [
+                    4096,
+                    []
+                ],
+                [
+                    8192,
+                    []
+                ],
+                [
+                    16384,
+                    []
+                ],
+                [
+                    32768,
+                    []
+                ],
+                [
+                    65536,
+                    []
+                ],
+                [
+                    131072,
+                    []
+                ],
+                [
+                    262144,
+                    []
+                ],
+                [
+                    524288,
+                    []
+                ],
+                [
+                    1048576,
+                    []
+                ],
+                [
+                    2097152,
+                    []
+                ],
+                [
+                    4194304,
+                    []
+                ],
+                [
+                    8388608,
+                    []
+                ],
+                [
+                    16777216,
+                    []
+                ],
+                [
+                    33554432,
+                    []
+                ],
+                [
+                    67108864,
+                    []
+                ],
+                [
+                    134217728,
+                    []
+                ],
+                [
+                    268435456,
+                    []
+                ],
+                [
+                    536870912,
+                    []
+                ],
+                [
+                    1073741824,
+                    []
+                ]
+            ],
+            "nativeEvents": [],
+            "networkMeasures": [],
+            "otherUserTimingMarks": [],
+            "reactVersion": "19.0.0",
+            "schedulingEvents": [
+                {
+                    "componentName": "PauseWorkSimulation",
+                    "lanes": [
+                        2
+                    ],
+                    "timestamp": 10,
+                    "type": "schedule-state-update",
+                    "warning": null,
+                    "componentStack": "\n    at PauseWorkSimulation (http://localhost:3000/static/js/bundle.js:282:76)\n    at div (<anonymous>)\n    at App (<anonymous>)"
+                }
+            ],
+            "snapshots": [],
+            "snapshotHeight": 0,
+            "startTime": 23754.5,
+            "suspenseEvents": [],
+            "thrownErrors": []
+        }
+    ]
+}

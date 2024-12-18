@@ -1,11 +1,14 @@
-import ReconciliationDiffing from "./under-the-hood/ReconciliationDiffing";
-// import VDom from "./under-the-hood/VirtualDOM";
+// import FiberNode from "./react-fiber/FiberNode";
+// import PauseWorkSimulation from "./react-fiber/PauseWorkSimulation";
+import FiberScheduler from "./react-fiber/FiberScheduler";
 
 const App = () => {
   return (
     <div>
       <h1>React app</h1>
-      <ReconciliationDiffing />
+      {/* <FiberNode /> */}
+      {/* <PauseWorkSimulation /> */}
+      <FiberScheduler />
     </div>
   );
 };
